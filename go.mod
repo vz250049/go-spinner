@@ -1,4 +1,4 @@
-module go-spinner
+module github.com/vz250049/go-spinner
 
 go 1.18
 
