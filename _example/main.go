@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	spin "go-spinner"
+	spin "github.com/vz250049/go-spinner"
 	"time"
 )
 
