@@ -21,9 +21,9 @@ assignees: ''
 Once **Incident Commander** receives the alert/issue through Pager Duty or through any other source(slack channel etc.) he/she should judge (see [To Incident, or not to Incident](https://confluence.ncr.com/display/SWDO/To+Incident%2C+or+not+to+Incident)) if this comes under the incident category or it's a known issue.
 Once we quickly decide if this is an incident do the following tasks.
 
-- [ ] Post in `#bsp-incidents-all` slack channel any information relevant to the alert
-- [ ] Scribe should create a private slack channel to discuss the incident. The private slack channel name should be `inc-<dateofincident yyyymmdd>-<appname>` for example `inc-20210530-ias`.
-- [ ] Start Outage bridge for the incident. Also, post this in `#bsp-incidents-all`.
+- [x] Post in `#bsp-incidents-all` slack channel any information relevant to the alert
+- [x] Scribe should create a private slack channel to discuss the incident. The private slack channel name should be `inc-<dateofincident yyyymmdd>-<appname>` for example `inc-20210530-ias`.
+- [x] Start Outage bridge for the incident. Also, post this in `#bsp-incidents-all`.
 - [ ] Use Pagerduty to page the other dev teammates using this [escalation policy](https://ncr-saas.pagerduty.com/escalation_policies#P52AVAS) and appropriate teams based on the component details.
 Please refer to this [Monitors list with stakeholders](https://confluence.ncr.com/pages/viewpage.action?pageId=451401718) for contact details for relevant applications/components.
 - [ ] Once all the required people join, **Incident Commander** must brief about the issue and should take inputs from other teams, SMEs and prepare initial analysis, impact, severity, etc.
